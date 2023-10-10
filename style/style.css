@@ -1,0 +1,63 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(96, 185, 240);
+    color: rgb(59, 59, 59);
+    -webkit-text-stroke: 0.2px black;
+}
+
+h1 {
+    padding: 0.5rem;
+    margin-bottom: -0.5rem;
+    text-align: center;
+}
+
+h3 {
+    padding: 0.5rem;
+    margin-bottom: -0.35rem;
+    text-align: center;
+}
+
+h4 {
+    padding: 0.5rem;
+    margin-bottom: -0.2rem;
+    text-align: center;
+}
+
+p {
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: center;
+}
+
+li {
+    padding: 0.5rem;
+    margin-bottom: -0.6rem;
+}
+
+label {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+input {
+    margin: 0.1rem;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
