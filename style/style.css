@@ -31,15 +31,26 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    text-align: center;
+}
+
+.lang1 {
+    text-align: right;
+}
+
 p {
     padding: 0.5rem;
     width: 20rem;
-    text-align: center;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 18px;
 }
 
 li {
     padding: 0.5rem;
     margin-bottom: -0.6rem;
+    text-align: right;
 }
 
 label {
@@ -61,8 +72,15 @@ section {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 1rem;
+    gap: 5rem;
 }
 
 .player {
-    box-shadow: 0.5rem 0.5rem 10px black;
+    box-shadow: 0.5rem 0.5rem 10px black; 
+    /* box-shadow properties = horizontal value, vertical value, opacity value, color value */
+}
+
+main .midle-title {
+    margin-top: -0.5rem;
+    margin-bottom: 0.1rem;
 }
