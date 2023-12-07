@@ -8,14 +8,14 @@ public class Quicksort {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite a quantidade de números: ");
+        System.out.print("Digite a quantidade de numeros: ");
         int N = scanner.nextInt();
 
         makeArray(N);
 
-        System.out.println("Números Desordenados: " + desordedNums);
+        System.out.println("Numeros Desordenados: " + desordedNums);
         pressOrded();
-        System.out.println("Números Ordenados: " + ordedNums);
+        System.out.println("Numeros Ordenados: " + ordedNums);
 
         scanner.close();
     }
@@ -24,7 +24,7 @@ public class Quicksort {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < N; i++) {
-            System.out.print("Digite o " + (i + 1) + "º número: ");
+            System.out.print("Digite o " + (i + 1) + " numero: ");
             int num = scanner.nextInt();
             desordedNums.add(num);
         }

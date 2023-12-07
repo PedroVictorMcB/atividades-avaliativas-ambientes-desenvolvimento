@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        List<Integer> fibo = new ArrayList<>();
-        fibo.add(0);
-        fibo.add(1);
+        List<Integer> sequenciaFibonacci = new ArrayList<>();
+        sequenciaFibonacci.add(0);
+        sequenciaFibonacci.add(1);
 
         System.out.print("Digite um numero: ");
         int N = sc.nextInt();
         sc.close();
 
         for (int i = 2; i <= N; i++) {
-            int soma = fibo.get(i - 1) + fibo.get(i - 2);
-            fibo.add(soma);
+            int soma = sequenciaFibonacci.get(i - 1) + sequenciaFibonacci.get(i - 2);
+            sequenciaFibonacci.add(soma);
         }
 
-        System.out.println(fibo);
+        System.out.println(sequenciaFibonacci);
     }
 }

@@ -10,16 +10,19 @@
     <header>
         <h4><a href="./index.html">Exercícios JavaScript e Java</a></h4>
     </header>
-    <h1>Escolha uma quantidade de números a serem digitados:</h1>
-    <input type="number" id="quantity"> <br><br>
-    <button onclick="getNumbers()">Inserir Números</button>
+    <div class="box">
+        <h1>Escolha uma quantidade de números a serem digitados:</h1>
+        <h4>Função Quicksort</h4>
+        <label for="number">Digite Aqui: </label>
+        <input type="number" id="quantity"> <br><br>
+        <button onclick="getNumbers()">Inserir Números</button>
 
-    <p id="lista-desorded"></p> <br>
+        <p id="lista-desorded"></p> <br>
 
-    <button onclick="pressOrded()">Ordenar</button>
+        <button onclick="pressOrded()">Ordenar</button>
 
-    <p id="lista-orded"></p>
-
+        <p id="lista-orded"></p>
+    </div>
     <script src="./quicksort.js"></script>
 </body>
 </html>

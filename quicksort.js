@@ -19,20 +19,20 @@ function getNumbers() {
     document.getElementById("lista-desorded").textContent = `Números Desordenados: ${desordedNums}`;
 }
 
-function quicksort(arr) {
-    if (arr.length <= 1) {
-        return arr;
+function quicksort(array) {
+    if (array.length <= 1) {
+        return array;
     }
 
-    const pivot = arr[0];
+    const pivot = array[0];
     const left = [];
     const right = [];
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < pivot) {
-            left.push(arr[i]);
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] < pivot) {
+            left.push(array[i]);
         } else {
-            right.push(arr[i]);
+            right.push(array[i]);
         }
     }
 

@@ -17,12 +17,12 @@ public class Mdc {
         System.out.println("O MDC dos numeros escolhidos eh " + mdc + ".");
     }
 
-    public static int MDC(int a, int b) {
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
+    public static int MDC(int num1, int num2) {
+        while (num2 != 0) {
+            int temp = num2;
+            num2 = num1 % num2;
+            num1 = temp;
         }
-        return a;
+        return num1;
     }
 }

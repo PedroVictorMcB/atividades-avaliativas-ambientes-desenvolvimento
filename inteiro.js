@@ -21,7 +21,3 @@ function getNumbers() {
     }
     document.getElementById("lista-numeros").textContent = `Números Digitados: ${array} -------- Números Inteiros: ${cont}`;
 }
-
-// function pressOrded() {
-//     document.getElementById("inteiros").textContent = `Números Ordenados: ${cont}`;
-// }

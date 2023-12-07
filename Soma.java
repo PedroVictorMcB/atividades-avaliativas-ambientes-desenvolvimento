@@ -5,15 +5,15 @@ public class Soma {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Digite um numero: ");
-        int n = sc.nextInt();
+        int N = sc.nextInt();
         
         int soma = 0;
         
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= N; i++) {
             soma += i;
         }
         
-        System.out.println("A soma de 1 a " + n + " eh igual a " + soma);
+        System.out.println("A soma de 1 a " + N + " eh igual a " + soma);
         
         sc.close();
     }

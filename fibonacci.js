@@ -2,12 +2,12 @@
 
 function calcularFibonacci() {
     const N = parseInt(document.getElementById("numero").value);
-    const fibo = [0, 1];
+    const sequenciaFibonacci = [0, 1];
 
     for (let i = 2; i <= N; i++) {
-        const soma = fibo[i - 1] + fibo[i - 2];
-        fibo.push(soma);
+        const soma = sequenciaFibonacci[i - 1] + sequenciaFibonacci[i - 2];
+        sequenciaFibonacci.push(soma);
     }
 
-    document.getElementById("resultado").textContent = "Série Fibonacci: " + fibo.join(", ");
+    document.getElementById("resultado").textContent = "Série Fibonacci: " + sequenciaFibonacci.join(", ");
 }
