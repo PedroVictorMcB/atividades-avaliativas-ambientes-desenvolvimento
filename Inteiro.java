@@ -10,14 +10,14 @@ public class Inteiro {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite a quantidade de números: ");
+        System.out.print("Digite a quantidade de numeros: ");
         int N = scanner.nextInt();
 
         makeArray(N);
 
-        System.out.println("Números Digitados: " + array);
+        System.out.println("Numeros Digitados: " + array);
         countIntegers();
-        System.out.println("Números Inteiros: " + cont);
+        System.out.println("Numeros Inteiros: " + cont);
 
         scanner.close();
     }
@@ -26,7 +26,7 @@ public class Inteiro {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < N; i++) {
-            System.out.print("Digite o " + (i + 1) + "º número: ");
+            System.out.print("Digite o " + (i + 1) + " numero: ");
             double num = scanner.nextDouble();
             array.add(num);
         }
